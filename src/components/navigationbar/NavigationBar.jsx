@@ -107,9 +107,9 @@ const NavigationBar = () => {
       <NavBar>
         <NavBarInner>
           <TitleWrap onClick={goMain}>
-            <DevsLogo src={`${APIURL}/media/logo.jpeg`} type="main" />
-            <MainTitle href="#">뎁스</MainTitle>
-            <SubTitle href="#">devStory</SubTitle>
+            <DevsLogo src={`${APIURL}/media/devs_new_logo.png`} type="main" />
+            {/*<MainTitle href="#">뎁스</MainTitle>*/}
+            {/*<SubTitle href="#">devStory</SubTitle>*/}
           </TitleWrap>
 
           <NavSearchbar>
