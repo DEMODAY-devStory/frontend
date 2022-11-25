@@ -27,7 +27,7 @@ const MyIdolPopup = memo(({ setPopup, idols, goUserProfile }) => {
                 <CardUnit key={idx}>
                   <CardImgNameBox>
                     <CardImg
-                      src={`${APIURL}${data.image}`}
+                      src={`${data.image}`}
                       onClick={(e) => goUserProfile(e, data.user)}
                     />
                     <CardUserName>{data.name}</CardUserName>
